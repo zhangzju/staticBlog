@@ -1,0 +1,22 @@
+{
+  "name": "staticblog",
+  "version": "1.0.0",
+  "description": "使用markdown文件生成静态网站",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangzju/staticBlog.git"
+  },
+  "author": "zhangzju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangzju/staticBlog/issues"
+  },
+  "homepage": "https://github.com/zhangzju/staticBlog#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
