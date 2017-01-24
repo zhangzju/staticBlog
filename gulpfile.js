@@ -1,5 +1,8 @@
 var gulp = require('gulp');
+var markdown = require('gulp-markdown');
 
 gulp.task('default', function() {
-  // 将你的默认的任务代码放在这
+  return gulp.src('markdown/*.md')
+    .pipe(markdown())
+    .pipe(gulp.dest('html'));
 });

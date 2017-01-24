@@ -18,5 +18,8 @@
   "homepage": "https://github.com/zhangzju/staticBlog#readme",
   "devDependencies": {
     "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "gulp-markdown": "^1.2.0"
   }
 }
